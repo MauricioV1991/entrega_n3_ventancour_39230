@@ -1,0 +1,626 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+#container {
+  width: 100%;
+  max-width: 1300px;
+  display: grid;
+  grid-gap: 10px;
+  margin: 10px auto;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(6, auto);
+  margin: 10px;
+}
+#container h2 {
+  font-size: 50px;
+}
+#container .main {
+  margin-top: 10px;
+  height: 350px;
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  background-image: url(/imagenes/background-1932466_1920.jpg);
+  background-size: cover;
+  color: rgb(17, 16, 16);
+  border-radius: 40px;
+}
+#container .clase-de-vinos {
+  margin-top: 10px;
+  background-image: url(../imagenes/consejos_para_el_cuidado_de_la_parra_de_uvas.jpg);
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-end: 4;
+  text-align: center;
+}
+#container .clases-de-carnes {
+  margin-top: 10px;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  text-align: center;
+  background-image: url(../imagenes/bondioladecerdo.jpeg);
+  background-size: cover;
+}
+#container .video-chef {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-end: 6;
+}
+#container .biografia-del-chef {
+  margin-top: 10px;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  background-image: url(../imagenes/cocinerosfondo2.jpeg);
+  background-size: cover;
+}
+#container .aside-publicidad {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.header-nav {
+  width: 100%;
+  height: 150px;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  background-image: url(../imagenes/background-1932466_1920.jpg);
+  background-size: cover;
+}
+.header-nav nav {
+  text-align: center;
+}
+.header-nav nav a {
+  color: rgba(219, 190, 25, 0.76);
+  font-size: 30px;
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+}
+.header-nav nav a:hover {
+  color: white;
+}
+.header-nav .logo img {
+  height: 50px;
+  margin-top: 10px;
+}
+
+footer {
+  height: 150;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  background-image: url(/imagenes/background-1932466_1920.jpg);
+  background-size: 100%;
+  display: grid;
+  justify-content: center;
+  border-radius: 20px;
+}
+footer .pie {
+  margin-top: 50px;
+  height: 200px;
+}
+footer .pie a img {
+  height: 80px;
+  padding: 50px;
+  margin: auto;
+}
+
+#container_catering {
+  width: 100%;
+  max-width: 1600px;
+  display: grid;
+  grid-gap: 10px;
+  margin: 10px auto;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 0.5fr 1.5fr 0.5fr;
+}
+#container_catering main.main_menu {
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-end: 2;
+  height: auto;
+  text-align: center;
+}
+#container_catering .logo img {
+  width: 50px;
+}
+#container_catering .form {
+  width: auto;
+  display: grid;
+  background-image: url(../imagenes/cocinamuro.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 50px;
+  border-radius: 10px;
+}
+#container_catering .form_container {
+  width: 100%;
+  height: 100%;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  text-align: center;
+}
+#container_catering .form form {
+  width: 450px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+#container_catering .carousel-item img {
+  width: 100%;
+  height: 900px;
+}
+#container_catering .carousel-item h3 {
+  color: black;
+  font-style: italic;
+}
+#container_catering .form_group {
+  display: grid;
+  width: 40%;
+  margin: auto;
+}
+
+#container_menu {
+  margin: 10px;
+  height: auto;
+  width: 1600px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+#container_menu main.main_menu {
+  height: 800px;
+  background-image: url(../imagenes/cocinamuro.jpeg);
+  background-size: cover;
+  margin: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+#container_menu main.main_menu .menu_dias {
+  padding: 20px;
+}
+#container_menu main.main_menu .descripcion {
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+  color: rgb(129, 30, 0);
+}
+#container_menu .comidas-vinos-postres {
+  text-align: center;
+  margin-top: 50px;
+  grid-row-end: 3;
+  height: auto;
+  width: 400px;
+}
+#container_menu .comidas-vinos-postres section {
+  background-image: url(/imagenes/cocinamuro.jpeg);
+  background-size: cover;
+}
+#container_menu .comidas-vinos-postres h3 {
+  font-size: 40px;
+  color: rgb(216, 115, 0);
+  background-image: url(../imagenes/consejos_para_el_cuidado_de_la_parra_de_uvas.jpg);
+}
+#container_menu .comidas-vinos-postres li {
+  padding: 5px;
+  font-size: 23px;
+  color: black;
+}
+#container_menu .flip-card {
+  background-color: transparent;
+  width: 350px;
+  height: 350px;
+  perspective: 1000px;
+  font-family: sans-serif;
+}
+#container_menu .title {
+  font-size: 1.5em;
+  font-weight: 900;
+  text-align: center;
+  margin: 0;
+}
+#container_menu .flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+#container_menu .flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+#container_menu .flip-card-front,
+#container_menu .flip-card-back {
+  box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.2);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border: 1px solid rgb(224, 108, 0);
+  border-radius: 1rem;
+}
+#container_menu .flip-card-front {
+  background: linear-gradient(120deg, bisque 60%, rgb(24, 21, 20) 88%, rgb(255, 211, 195) 40%, rgba(255, 127, 80, 0.603) 48%);
+  color: rgb(192, 56, 6);
+}
+#container_menu .flip-card-back {
+  background: linear-gradient(120deg, rgb(27, 20, 17) 30%, coral 88%, bisque 40%, rgb(255, 185, 160) 78%);
+  color: white;
+  transform: rotateY(180deg);
+}
+
+#container_empresa {
+  width: 100%;
+  max-width: 1600px;
+  display: grid;
+  grid-gap: 10px;
+  margin: 10px auto;
+  padding: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 0.5fr 1.5fr 0.5fr;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#container_empresa main.empresa {
+  height: auto;
+  background-image: url(/imagenes/cocineros\ fondo.jpeg);
+  background-size: cover;
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: auto;
+}
+#container_empresa main.empresa h3 {
+  font-weight: 700;
+  font-size: 30px;
+  color: orange;
+  margin: 10px;
+}
+#container_empresa main.empresa h3:hover {
+  color: black;
+}
+#container_empresa main.empresa .img_logo {
+  grid-column-end: 1;
+  grid-row-end: 1;
+  margin-top: 150px;
+  margin-left: 30px;
+}
+#container_empresa main.empresa .img_logo img {
+  width: 100px;
+}
+#container_empresa main.empresa .cartas_franquicias {
+  display: grid;
+  grid-template-columns: repeat(3, 0.4fr);
+  margin-top: 100px;
+}
+#container_empresa main.empresa .cartas_franquicias .container_gold {
+  color: gold;
+  position: relative;
+  font-family: sans-serif;
+}
+#container_empresa main.empresa .cartas_franquicias .container_gold::before,
+#container_empresa main.empresa .cartas_franquicias .container_gold::after {
+  content: "";
+  background-color: gold;
+  position: absolute;
+}
+#container_empresa main.empresa .cartas_franquicias .container_gold .box {
+  width: 11.875em;
+  height: 15.875em;
+  padding: 1rem;
+  background-color: rgba(124, 224, 43, 0.074);
+  border: 1px solid rgba(255, 255, 255, 0.222);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border-radius: 0.7rem;
+  transition: all ease 0.3s;
+}
+#container_empresa main.empresa .cartas_franquicias .container_gold .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#container_empresa main.empresa .cartas_franquicias .container_gold .box .title {
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+}
+#container_empresa main.empresa .cartas_franquicias .container_gold .box div strong {
+  display: block;
+  margin-bottom: 0.3rem;
+}
+#container_empresa main.empresa .cartas_franquicias .container_gold .box div p {
+  margin: 0;
+  font-size: 0.9em;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+}
+#container_empresa main.empresa .cartas_franquicias .container_gold .box div span {
+  font-size: 0.7rem;
+  font-weight: 300;
+}
+#container_empresa main.empresa .cartas_franquicias .container_gold .box div span:nth-child(3) {
+  font-weight: 500;
+  margin-right: 0.2rem;
+}
+#container_empresa main.empresa .cartas_franquicias .container_gold .box:hover {
+  box-shadow: 0px 0px 20px 1px rgba(202, 199, 15, 0.2470588235);
+  border: 2px solid rgba(145, 87, 87, 0.454);
+}
+#container_empresa main.empresa .cartas_franquicias .container_silver {
+  color: rgb(88, 81, 81);
+  position: relative;
+  font-family: sans-serif;
+}
+#container_empresa main.empresa .cartas_franquicias .container_silver::before,
+#container_empresa main.empresa .cartas_franquicias .container_gold::after {
+  content: "";
+  background-color: rgb(238, 216, 95);
+  position: absolute;
+}
+#container_empresa main.empresa .cartas_franquicias .container_silver .box {
+  width: 11.875em;
+  height: 15.875em;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.074);
+  border: 1px solid rgba(255, 255, 255, 0.222);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border-radius: 0.7rem;
+  transition: all ease 0.3s;
+}
+#container_empresa main.empresa .cartas_franquicias .container_silver .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#container_empresa main.empresa .cartas_franquicias .container_silver .box .title {
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+}
+#container_empresa main.empresa .cartas_franquicias .container_silver .box div strong {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+#container_empresa main.empresa .cartas_franquicias .container_silver .box div p {
+  margin: 0;
+  font-size: 0.9em;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+}
+#container_empresa main.empresa .cartas_franquicias .container_silver .box div span {
+  font-size: 0.7rem;
+  font-weight: 300;
+}
+#container_empresa main.empresa .cartas_franquicias .container_silver .box div span:nth-child(3) {
+  font-weight: 500;
+  margin-right: 0.2rem;
+}
+#container_empresa main.empresa .cartas_franquicias .container_silver .box:hover {
+  box-shadow: 0px 0px 20px 1px rgba(255, 187, 118, 0.2470588235);
+  border: 1px solid rgba(255, 255, 255, 0.454);
+}
+#container_empresa main.empresa .cartas_franquicias .container_cobre {
+  color: rgb(41, 37, 13);
+  position: relative;
+  font-family: sans-serif;
+}
+#container_empresa main.empresa .cartas_franquicias .container_cobre::before,
+#container_empresa main.empresa .cartas_franquicias .container_cobre::after {
+  content: "";
+  background-color: gold;
+  position: absolute;
+}
+#container_empresa main.empresa .cartas_franquicias .container_cobre .box {
+  width: 11.875em;
+  height: 15.875em;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.074);
+  border: 1px solid rgba(255, 255, 255, 0.222);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border-radius: 0.7rem;
+  transition: all ease 0.3s;
+}
+#container_empresa main.empresa .cartas_franquicias .container_cobre .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#container_empresa main.empresa .cartas_franquicias .container_cobre .box .title {
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+}
+#container_empresa main.empresa .cartas_franquicias .container_cobre .box div strong {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+#container_empresa main.empresa .cartas_franquicias .container_cobre .box div p {
+  margin: 0;
+  font-size: 0.9em;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+}
+#container_empresa main.empresa .cartas_franquicias .container_cobre .box div span {
+  font-size: 0.7rem;
+  font-weight: 300;
+}
+#container_empresa main.empresa .cartas_franquicias .container_cobre .box div span:nth-child(3) {
+  font-weight: 500;
+  margin-right: 0.2rem;
+}
+#container_empresa main.empresa .cartas_franquicias .container_cobre .box:hover {
+  box-shadow: 0px 0px 20px 1px rgba(255, 187, 118, 0.2470588235);
+  border: 1px solid rgba(255, 255, 255, 0.454);
+}
+
+#container_sobre_nosotros {
+  background-image: url(/imagenes/cocinamuro.jpeg);
+  background-size: cover;
+  margin: 10px;
+  height: auto;
+  width: 1600px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-content: stretch;
+  width: 100%;
+}
+#container_sobre_nosotros main.nosotros {
+  width: 800px;
+  grid-template-columns: repeat(2, 0.5fr);
+  height: auto;
+  text-align: center;
+}
+#container_sobre_nosotros main.nosotros .descripcion_fotos {
+  width: 500px;
+}
+#container_sobre_nosotros main.nosotros h3 {
+  color: orangered;
+  font-size: 30px;
+  margin-left: 400px;
+}
+#container_sobre_nosotros main.nosotros .foto_h3 {
+  margin-top: 50px;
+  width: 500px;
+  margin-left: 400px;
+}
+#container_sobre_nosotros main.nosotros .foto_h3 img {
+  width: 400px;
+}
+#container_sobre_nosotros main.nosotros .foto_mesa img {
+  width: 600px;
+  margin-left: 400px;
+}
+
+@media only screen and (max-width: 750px) {
+  #container {
+    grid-column: 1;
+    grid-template-rows: 0.5fr;
+    display: block;
+  }
+  .header-nav {
+    width: auto;
+    background-size: cover;
+  }
+  .main {
+    width: auto;
+  }
+  .clase-de-vinos {
+    width: auto;
+  }
+  .clases-de-carnes {
+    width: auto;
+  }
+  .biografia-del-chef {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .video-chef {
+    display: none;
+  }
+  .footer {
+    width: 100%;
+    background-size: cover;
+  }
+  .footer .pie {
+    width: max-content;
+  }
+  .footer nav.pie img {
+    width: 30px;
+    height: 40px;
+    padding: none;
+  }
+  .aside-publicidad {
+    display: none;
+  }
+  #container_menu {
+    max-width: 450px;
+    display: block;
+    justify-items: center;
+  }
+  #container_menu .header-nav {
+    width: 450px;
+    background-size: cover;
+  }
+  #container_menu main.main_menu {
+    width: 400px;
+    height: auto;
+    display: grid;
+    display: block;
+  }
+  #container_menu main.main_menu .flip-card-inner {
+    width: 200px;
+  }
+  #container_menu main.main_menu .menu_dias {
+    margin-left: 10px;
+  }
+  #container_menu .main_menu .flip_card {
+    width: 100px;
+  }
+  #container_menu #container_menu .flip-card-front,
+  #container_menu #container_menu .flip-card-back {
+    width: 200px;
+    height: 200px;
+  }
+  #container_menu .comidas-vinos-postres {
+    margin-left: 40px;
+    margin-bottom: 10px;
+  }
+  #container_menu footer.footer_menu {
+    width: 450px;
+  }
+  #container_menu footer.footer_menu .pie {
+    width: max-content;
+  }
+  #container_menu footer.footer_menu nav.pie img {
+    width: 30px;
+    height: 40px;
+    padding: none;
+  }
+  #container_empresa {
+    width: 470px;
+    height: auto;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1;
+  }
+  #container_empresa main.empresa {
+    width: 450px;
+    display: grid;
+  }
+  #container_empresa main.empresa .img_logo img {
+    display: none;
+  }
+  #container_empresa main.empresa .cartas_franquicias {
+    display: block;
+  }
+  #container_empresa main.empresa .container_gold .box {
+    width: 100px;
+  }
+  #container_sobre_nosotros {
+    width: 470px;
+    height: auto;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

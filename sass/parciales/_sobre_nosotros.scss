@@ -1,0 +1,46 @@
+#container_sobre_nosotros {
+    background-image: url(/imagenes/cocinamuro.jpeg);
+    background-size: cover;
+    margin: 10px;
+    height: auto;
+    width: 1600px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-content: stretch;
+    width: 100%;
+
+    main.nosotros {
+        width: 800px;
+        grid-template-columns: repeat(2, 0.5fr);
+        height: auto;
+        text-align: center;
+
+        .descripcion_fotos {
+            width: 500px;
+
+        }
+
+        h3 {
+            color: orangered;
+            font-size: 30px;
+            margin-left: 400px;
+        }
+
+        .foto_h3 {
+            margin-top: 50px;
+            width: 500px;
+            margin-left: 400px;
+        }
+
+        .foto_h3 img {
+            width: 400px;
+        }
+
+
+        .foto_mesa img {
+            width: 600px;
+            margin-left: 400px;
+
+        }
+    }
+}

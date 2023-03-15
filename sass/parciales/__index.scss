@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+#container {
+    width: 100%;
+    max-width: 1300px;
+    display: grid;
+    grid-gap: 10px;
+    margin: 10px auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, auto);
+    margin: 10px;
+    
+
+    h2 {
+        font-size: 50px;
+    }
+
+    .main {
+        margin-top: 10px;
+        height: 350px;
+        text-align: center;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 2;
+       background-image: url(/imagenes/background-1932466_1920.jpg);
+        background-size: cover;
+        color: rgb(17, 16, 16);
+        border-radius: 40px;
+        
+        
+    }
+
+    .clase-de-vinos {
+        margin-top: 10px;
+        background-image: url(../imagenes/consejos_para_el_cuidado_de_la_parra_de_uvas.jpg);
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-end: 4;
+        text-align: center;
+    }
+
+    .clases-de-carnes {
+        margin-top: 10px;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        text-align: center;
+        background-image: url(../imagenes/bondioladecerdo.jpeg);
+        background-size: cover;
+    }
+
+    .video-chef {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-end: 6;
+    }
+
+    .biografia-del-chef {
+        margin-top: 10px;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        background-image: url(../imagenes/cocinerosfondo2.jpeg);
+        background-size: cover;
+    }
+
+    .aside-publicidad {
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+
+   
+
+}

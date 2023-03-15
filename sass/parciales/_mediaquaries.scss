@@ -1,0 +1,157 @@
+@media only screen and (max-width: 750px) {
+    #container {
+        grid-column: 1;
+        grid-template-rows: 0.5fr;
+        display: block;
+    }
+
+    .header-nav {
+
+        width: auto;
+        background-size: cover;
+    }
+
+
+    .main {
+        width: auto;
+    }
+
+    .clase-de-vinos {
+        width: auto;
+    }
+
+    .clases-de-carnes {
+        width: auto;
+    }
+
+    .biografia-del-chef {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    .video-chef {
+        display: none;
+    }
+
+    .footer {
+        width: 100%;
+        background-size: cover;
+
+        .pie {
+            width: max-content;
+
+        }
+
+        nav.pie img {
+            width: 30px;
+            height: 40px;
+            padding: none;
+
+        }
+    }
+
+
+    .aside-publicidad {
+        display: none;
+    }
+
+
+    #container_menu {
+        max-width: 450px;
+        display: block;
+        justify-items: center;
+
+        .header-nav {
+
+            width: 450px;
+            background-size: cover;
+        }
+
+        main.main_menu {
+            width: 400px;
+            height: auto;
+            display: grid;
+            display: block;
+
+            .flip-card-inner {
+                width: 200px;
+            }
+
+            .menu_dias {
+                margin-left: 10px;
+            }
+        }
+
+        .main_menu .flip_card {
+            width: 100px;
+        }
+
+        #container_menu .flip-card-front,
+        #container_menu .flip-card-back {
+            width: 200px;
+            height: 200px;
+
+        }
+
+        .comidas-vinos-postres {
+            margin-left: 40px;
+            margin-bottom: 10px;
+        }
+
+        footer.footer_menu {
+            width: 450px;
+
+            .pie {
+                width: max-content;
+            }
+
+            nav.pie img {
+                width: 30px;
+                height: 40px;
+                padding: none;
+
+            }
+        }
+    }
+
+    #container_empresa {
+        width: 470px;
+        height: auto;
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1;
+
+        main.empresa {
+            width: 450px;
+            display: grid;
+            
+
+            .img_logo img {
+                display: none;
+            }
+       .cartas_franquicias{
+        display: block;
+       }
+            .container_gold .box {
+                width: 100px;
+            }
+        }
+ 
+
+
+
+    }
+#container_sobre_nosotros{
+    width: 470px;
+    height: auto;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1;
+    
+    main.nosotros{
+        
+    }
+     }
+
+
+}
