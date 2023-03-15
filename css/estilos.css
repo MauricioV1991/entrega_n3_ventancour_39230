@@ -21,7 +21,7 @@
   grid-column-end: 4;
   grid-row-start: 2;
   grid-row-end: 2;
-  background-image: url(/imagenes/background-1932466_1920.jpg);
+  background-image: url(../imagenes/background-1932466_1920.jpg);
   background-size: cover;
   color: rgb(17, 16, 16);
   border-radius: 40px;
@@ -74,7 +74,7 @@ body {
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 1;
-  background-image: url(/imagenes/background-1932466_1920.jpg);
+  background-image: url(../imagenes/background-1932466_1920.jpg);
   background-size: cover;
 }
 .header-nav nav {
@@ -99,7 +99,7 @@ footer {
   height: 150;
   grid-column-start: 1;
   grid-column-end: 4;
-  background-image: url(/imagenes/background-1932466_1920.jpg);
+  background-image: url(../imagenes/background-1932466_1920.jpg);
   background-size: 100%;
   display: grid;
   justify-content: center;
@@ -231,7 +231,7 @@ footer .pie a img {
   width: 400px;
 }
 #container_menu .comidas-vinos-postres section {
-  background-image: url(/imagenes/cocinamuro.jpeg);
+  background-image: url(../imagenes/cocinamuro.jpeg);
   background-size: cover;
 }
 #container_menu .comidas-vinos-postres h3 {
@@ -306,7 +306,7 @@ footer .pie a img {
 }
 #container_empresa main.empresa {
   height: auto;
-  background-image: url(/imagenes/cocineros\ fondo.jpeg);
+  background-image: url(../imagenes/cocineros\ fondo.jpeg);
   background-size: cover;
   margin-top: 80px;
   display: grid;
@@ -500,7 +500,7 @@ footer .pie a img {
 }
 
 #container_sobre_nosotros {
-  background-image: url(/imagenes/cocinamuro.jpeg);
+  background-image: url(../imagenes/cocinamuro.jpeg);
   background-size: cover;
   margin: 10px;
   height: auto;
