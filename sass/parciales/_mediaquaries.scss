@@ -124,34 +124,60 @@
         main.empresa {
             width: 450px;
             display: grid;
-            
+
 
             .img_logo img {
                 display: none;
             }
-       .cartas_franquicias{
-        display: block;
-       }
+
+            .cartas_franquicias {
+                display: block;
+            }
+
             .container_gold .box {
                 width: 100px;
             }
         }
- 
+
 
 
 
     }
-#container_sobre_nosotros{
-    width: 470px;
-    height: auto;
-    display: grid;
-    justify-items: center;
-    grid-template-columns: 1;
+
+    #container_sobre_nosotros {
+        width: 470px;
+        height: auto;
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1;
+    }
+
+
+
+    #container_catering{
+        width: 470px;
+        height: auto;
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1;
+       
+
+        .form.form {
+            margin-bottom: 10px;
+            width: auto;
+            display: block;
+            grid-column-start: 1;
+            grid-column-end: 1;
+            background-repeat: no-repeat;
     
-    main.nosotros{
-        
+        }
+    
+        .card {
+            margin-left: 10px;
+        }
+        main {
+            display: none;
+        }
     }
-     }
-
 
 }
